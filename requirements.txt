@@ -1,0 +1,6 @@
+# 核心运行：零第三方依赖，Python 3.9+ 标准库即可（见 serve.py）
+# 以下仅为可选功能：
+# 桌面原生窗口（main.py 使用；不装则自动回落系统浏览器）
+pywebview>=4.0 ; python_version >= "3.9"
+# 自行打包 Windows 单文件 exe 时才需要
+# pyinstaller>=6.0

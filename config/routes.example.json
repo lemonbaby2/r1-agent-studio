@@ -1,0 +1,20 @@
+[
+  {
+    "id": "local",
+    "label": "本机 Ollama",
+    "base": "http://127.0.0.1:11434",
+    "auth": false
+  },
+  {
+    "id": "lan",
+    "label": "局域网网关（示例，请改成自己的地址）",
+    "base": "http://YOUR-LAN-HOST:18940/node/dgx",
+    "auth": true
+  },
+  {
+    "id": "public",
+    "label": "公网网关（示例，请改成自己的域名）",
+    "base": "https://your-gateway.example.com/node/dgx",
+    "auth": true
+  }
+]

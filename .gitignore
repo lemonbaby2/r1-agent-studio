@@ -1,0 +1,32 @@
+# 凭据与本地配置（最重要）
+config/routes.json
+.env
+.env.*
+*.token
+*secret*
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+# 构建产物 / 二进制（不入库，走 GitHub Release）
+build/
+build_*/
+dist/
+dist_*/
+*.exe
+*.pkg
+*.pyz
+*.toc
+payload/
+# 用户数据
+sessions.json
+config.json
+*.bak
+*.log
+# 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
